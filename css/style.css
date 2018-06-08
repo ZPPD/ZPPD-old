@@ -98,15 +98,17 @@ body{
   padding: 50px 40px;
   margin:0;
   opacity: 0.8;
+
  }
+
  #contact .btn-social{
   background-position: center;
   border: 3px solid #262626;
   padding: 10px;
   border-radius: 100%;
   text-align: center;
-  line-height: 45px;
-  font-size: 30px;
+  line-height: 40px;
+  font-size: 25px;
   z-index: 2;
   color: #00aced;
  }
@@ -141,7 +143,7 @@ body{
   }
 
   #contact .btn-social{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
 
   }
@@ -156,11 +158,7 @@ body{
     background: #262626;
   }
 
-/*  #pushContent {
-  height: 222.5px;
-  width:100%;
-  display: none;
-  }*/
+
 
   .row{
     margin:0;

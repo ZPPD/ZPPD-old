@@ -36,3 +36,8 @@ body {
   word-wrap: break-word;
   min-height: 42px;
 }
+@media(max-width: 570px){
+  .container{
+    width: 100%;
+  }
+}
