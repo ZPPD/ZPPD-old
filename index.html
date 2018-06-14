@@ -15,17 +15,25 @@
   <body class="bg-light">
     <header id="home">
     <nav id="navbar" class="navbar  fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Zhana Dougherty</a>
+  <a class="navbar-brand" href="#" translate="Brand">Zhana Dougherty</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link text-light" href="#about">About</a>
+      <a class="nav-link text-light" href="#about" translate="ABOUT">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-light" href="#work">Projects</a>
+      <a class="nav-link text-light" href="#work" translate="WORK">Projects</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-light" href="#contact">Contact</a>
+      <a class="nav-link text-light" href="#contact" translate="CONTACT">Contact</a>
     </li>
+
+    <li class="nav-item dropdown pr-3">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
+        <div class="dropdown-menu">
+          <a class="lng-en" href="#">EN</a><br>
+          <a class="lng-bg" href="bg/index-bg.html">BG</a>
+        </div>
+      </li>
 
 <!-- Drop down -->
   <!--  <li class="nav-item dropdown pr-3">
@@ -74,7 +82,7 @@
     </nav>-->
 
   <section class="background-image">
-    <h2 class="title">Hello</h2>
+    <h2 class="title" translate="TITLE">Hello</h2>
   </section>
 
 </header>
@@ -91,8 +99,8 @@
           <img  src="" >
         </div>
         <div class="col-sm-6 ">
-      <h4 id="about">About Me</h4>
-      <p class="info">Welcome!<br>
+      <h4 id="about" translate="ABOUT_ME">About Me</h4>
+      <p class="info" translate="INFO">Welcome!<br>
         I am Zhana and this is my portfolio website.
         <br>
         I live and work in USA, but i was born and raised in Bulgaria, where I got my Bachelors degree in Computer Engineering.
@@ -107,14 +115,14 @@
 
 
   <div id="work" class="container bg-white">
-    <h3>Work</h3>
+    <h3 translate="WORK">Work</h3>
       <hr class="work"><br>
   <!--  <div id="projects" class="bg-light">-->
   <!--Project 1-->
     <div class="row">
     <div class="col-sm-6 project-one-left">
-      <h4 id="one">Project one</h4>
-      <p>News Project<br>
+      <h4 id="one" translate="ONE">Project one</h4>
+      <p translate="NEWS">News Project<br>
        In this project I am using fetch, async and await, where I am requesting information from NewsAPI.org and Twitter API to create a news website. This website allows me to retrieve news from three different sources and post any of the articles I wish on my personal twitter.</p>
   </div>
   <div class="col-sm-6 project-one-right">
@@ -133,8 +141,8 @@
   </div>
   </div>
   <div class="col-sm-6 project-two-right">
-      <h4 id="two">Project two</h4>
-      <p>Skillfair<br>
+      <h4 id="two" translate="TWO">Project two</h4>
+      <p stranslate="SKILL">Skillfair<br>
         This is a simple webpage, where I have used HTML, CSS and Bootstrap.I have implemented my knowledge of the grid system to build a clean layout.  The web page is completely responsive and changes its appearance when on mobile mode.</p>
   </div>
 </div>
@@ -142,8 +150,8 @@
    <!--Project 3-->
       <div class="row">
       <div class="col-sm-6 project-three-left">
-        <h4 id="one">Project three</h4>
-        <p> Slide<br>
+        <h4 id="three" translate="THREE">Project three</h4>
+        <p translate="SLIDE"> Slide<br>
       I have built a carousel, using HTML5, CSS3, Bootstrap 4 and jQery library. When clicking event occurs on the navigation arrows at the bottom, the next slide appears with an animated fade in effect, while the dots on the bottom represent which slide we are at.</p>
     </div>
     <div class="col-sm-6 project-three-right">
@@ -162,8 +170,8 @@
   </div>
   </div>
   <div class="col-sm-6 project-four-right">
-      <h4 id="two">Project four</h4>
-      <p>Update your Status<br>
+      <h4 id="four" translate="FOUR">Project four</h4>
+      <p translate="STATUS">Update your Status<br>
       In this project you can post your status by simply clicking the button. The word count under the input shows how many characters are left to type. The Post button cannot be pressed if there is no text. Here I have used HTML, CSS and jQery.</p>
   </div>
 </div>
@@ -171,8 +179,8 @@
   <!--Project 5-->
   <div class="row ">
   <div class="col-sm-6  project-five-left">
-      <h4 id="three">Project five</h4>
-      <p>Cafe webpage<br>
+      <h4 id="five" translate="FIVE">Project five</h4>
+      <p translate="CAFE">Cafe webpage<br>
          In this web page I have used my responsive design knowledge. This is a minimalist static webpage, that changes its layout when on mobile mode. I have used HTML and CSS. I have used media queries for the responsiveness. </p>
     </div>
     <div class="col-sm-6  project-five-right">
@@ -191,8 +199,8 @@
   </div>
   </div>
   <div class="col-sm-6 project-six-right">
-      <h4 id="two">Project six</h4>
-      <p>Contacts<br>
+      <h4 id="six" translate="SIX">Project six</h4>
+      <p translate="CONTACTS">Contacts<br>
         Contacts is a responsive filterable list. Here I am using Materialize for CSS and layout, and JavaScript. When a letter is typed it hides the words that do not contain it.</p>
   </div>
   </div>
@@ -200,8 +208,8 @@
    <!--Project 7-->
   <div class="row ">
   <div class="col-sm-6  project-seven-left">
-      <h4 id="three">Project seven</h4>
-      <p> Quiz<br1>
+      <h4 id="seven" translate="SEVEN">Project seven</h4>
+      <p translate="QUIZ"> Quiz<br1>
        This is a simple JavaScript quiz, for which i used HTML, CSS, Bootstrap 4 and jQuery. The next button can be clicked on only if the correct answer was selected. The quiz is also responsive and can be done on a mobile phone.</p>
     </div>
     <div class="col-sm-6  project-seven-right">
@@ -285,7 +293,7 @@
     <footer class="text-muted bg-dark m-0 p-2">
       <div class="container">
         <p class="float-right">
-          <a href="#home">Back to top</a>
+          <a href="#home" translate="FOOTER">Back to top</a>
         </p>
         <p> ZPPD &copy; 2018</p>
         </div>
@@ -298,6 +306,7 @@
   			  src="https://code.jquery.com/jquery-3.3.1.js"
   			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   			  crossorigin="anonymous"></script>
+    <script src="js/translate.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
