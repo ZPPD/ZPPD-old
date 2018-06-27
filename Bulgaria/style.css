@@ -1,0 +1,198 @@
+body {
+  height: 100%;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+  background-color: #f1ebdb;
+}
+
+header {
+  grid-area: head;
+  background-image: url('img/background.jpg');
+  min-height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding: 20%;
+  margin: 0;
+  color: #2e2e2e;
+}
+
+p {
+  padding: 2rem 10rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* A Intro map*/
+
+#section-a {
+  background-color: #464e25;
+  margin: 0;
+  padding: 3rem 1.2rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#intro {
+  text-align: center;
+  color: #f9ffff;
+  margin: 3rem;
+}
+
+#bulgaria-map {
+  width: 25rem;
+  margin-left: 1.5rem;
+}
+
+/*  B - History*/
+
+#section-b {
+  display: grid;
+  padding: 1.5rem;
+  grid-template-columns: 1fr 2fr;
+}
+
+#history-head {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#history-list {
+  text-align: left;
+}
+
+#history {
+  text-align: center;
+}
+
+.line {
+  width: 50%;
+}
+
+/* C Country*/
+
+#section-c {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sea, .mountain, .architecture, .churches {
+  color: #191919;
+  padding: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+.img-sea {
+  background-image: url('img/blackSea.jpg');
+  min-height: 600px;
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-mountain {
+  background-image: url('img/mountain.jpg');
+  min-height: 600px;
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#overlap {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat (3, 1fr);
+}
+
+.img-road {
+  width: 100%;
+  grid-column: 5/ span 2;
+  grid-row: 1/ span 2;
+  z-index: 1;
+}
+
+.img-house {
+  width: 100%;
+  grid-column: 3/6;
+  grid-row: 2/span 2;
+  z-index: 2;
+}
+
+.img-monastery {
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 1/span 2;
+  z-index: 1;
+}
+
+.img-churches {
+  background-image: url('img/icon.jpg');
+  min-height: 600px;
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+/* Footer */
+
+footer {
+  background-color: #464e25;
+  color: #f9ffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #0d0b17;
+  text-decoration: none;
+}
+
+@media(max-width: 700px) {
+  #section-a {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  #bulgaria-map {
+    width: 15rem;
+  }
+  #intro {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  #section-b {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  footer {
+    font-size: 0.85rem;
+  }
+}
