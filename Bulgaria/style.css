@@ -172,7 +172,7 @@ footer a {
   text-decoration: none;
 }
 
-@media(max-width: 568px) {
+@media(max-width: 750px) {
   #section-a {
     grid-template-columns: 1fr;
     padding: 1rem;
