@@ -44,7 +44,7 @@ body{
 }
 .pborder{
   background-color: #24282c;
-  padding: 20px;
+  padding: 0.9rem;
 }
 
 
@@ -152,6 +152,10 @@ body{
 @media (max-width: 568px){
   .background-image{
     background-attachment: scroll;
+  }
+  .intro{
+    font-size: 1rem;
+
   }
 
   #contact .btn-social{
