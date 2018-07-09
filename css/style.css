@@ -25,17 +25,29 @@ body{
 
   background-size: cover;
 }
-
- .title{
+ .title, .intro{
    text-align: center;
-   top:40%;
    position: absolute;
+   width: 100%;
+ }
+ .title{
+   top:40%;
    text-transform: uppercase;
    letter-spacing:8px;
-   font-size: 2em;
-   width: 100%;
+   font-size: 2rem;
    color: #c0c0c0;
  }
+.intro{
+  top:50%;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.pborder{
+  background-color: #24282c;
+  padding: 20px;
+}
+
+
  .container-fluid{
    margin:0 !important;
    padding:0 !important;
