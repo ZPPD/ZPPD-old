@@ -190,7 +190,7 @@ hr.work {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
   .portfolio-item img:hover {
     margin: 5px 0;
     opacity: .7;
