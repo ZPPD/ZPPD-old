@@ -130,13 +130,14 @@ function clearTasks() {
   //taskList.innerHtml = '';
 
   //faster --  while there is still anything in the first child:
+  if(confirm('You will loose your tasks')){
   while (taskList.firstChild) {
     taskList.removeChild(taskList.firstChild);
   }
   //https://jsperf.com/innerhtml-vs-removechild
   //clear form LS
   clearTasksFromLocalStorage();
-
+}
 }
 //clear Tasks from LS
 function clearTasksFromLocalStorage() {
@@ -153,7 +154,7 @@ function filterTasks(e) {
       const item = task.firstChild.textContent;
 
       if (item.toLowerCase().indexOf(text) != -1) {
-        task.style.dysplay = 'block';
+        task.style.display = 'block';
       } else {
         task.style.display = 'none';
       }
