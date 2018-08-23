@@ -23,7 +23,7 @@ async function getNews(url){
   return articlesArray;
 }
 // Render Function
-//This function iterates over articlesArray to create the HTML that will be appended to index.html so that the information we receive from NewsAPI.org can be displayed to our users. 
+//This function iterates over articlesArray to create the HTML that will be appended to index.html so that the information we receive from NewsAPI.org can be displayed to our users.
 function renderNews(articles) {
   articles.map((article, index) => {
     let articleRow =
@@ -36,8 +36,8 @@ function renderNews(articles) {
       ' </div>' +
       ' <div class="share">' +
       '   <img class="storyimage" src="' + article.urlToImage + '" />' +
-      '   <button type="button" class="tweet" id="tweet ' + index + '">' +
-      '   <i class="fa fa-twitter" aria-hidden="true"></i>Tweet This</button>' +
+      '   <a href="https://twitter.com/"><button type="button" class="tweet" id="tweet ' + index + '">' +
+      '   <i class="fa fa-twitter" aria-hidden="true"></i>Tweet This</button> </a>' +
       ' </div>' +
       '</div>';
 //if i want MY tweeter to open after pressing the button, before the <button> should include <a href="tweeter.com/<your name>" target=""_blank> and close it after the </button></a>
@@ -81,4 +81,3 @@ nextWeb.addEventListener('click', function() {
   // Call getNews() here
   getNews(nextWebUrl).then(articleArray => renderNews(articleArray)).then(articles => sendTweets(articles));
 }, false);
-
