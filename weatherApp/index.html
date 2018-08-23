@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv="X-UA-Compatible" content='ie=edge'>
+  <meta name='description' content='A Weather application that shows top attractions in the area'>
+  <meta name='keywords' content='weather, attractions, weather app'>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <header>
+    <h3 class='logo'>Weather App</h3>
+  </header>
+  <main class='main'>
+    <h1 class='title'>Where would you like to go?</h1>
+    <form autocomplete='off' class='form'>
+      <input type='text' id='city' class='input'>
+      <button id='button' class='btn' type='submit'>Submit</button>
+    </form>
+  </main>
+  <div class='container'>
+    <div class='destination'></div>
+
+    <div class='sectiontitle'>
+      <h2>Weather</h2>
+    </div>
+    <section id='weather'>
+      <!--<div id='weather1' class='weather'></div>
+      <div id='weather2' class='weather'></div>
+      <div id='weather3' class='weather'></div>
+      <div id='weather3' class='weather'></div>-->
+    </section>
+    <div class='sectiontitle'>
+      <h2>Top Attractions</h2>
+    </div>
+    <section id='venues'>
+      <!--<div id='venue1' class='venue'></div>
+      <div id='venue2' class='venue'></div>
+      <div id='venue3' class='venue'></div>
+      <div id='venue3' class='venue'></div>-->
+    </section>
+
+  </div>
+  <section id='social' class='social'>
+    <h3>Follow Us</h3>
+    <p>Follow us on social media</p>
+    <a href='#' class='icon'><i class='fab fa-facebook fa-3x'></i></a>
+    <a href='#' class='icon'><i class='fab fa-twitter fa-3x'></i></a>
+    <a href='#' class='icon'><i class='fab fa-pinterest fa-3x'></i></a>
+  </section>
+
+  <footer>
+    <p>Weather App &copy; 2018</p>
+  </footer>
+
+  <script src='js/main.js'></script>
+</body>
+
+</html>
