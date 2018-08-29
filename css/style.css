@@ -171,6 +171,15 @@ hr.work {
   z-index: 1;
 }*/
 
+/* Media queries */
+@media (max-width: 995px){
+  .row, p{
+    text-align: left;
+    font-size: 16px;
+    padding: 30px 0px;
+  }
+}
+
 @media (max-width: 750px) {
   .background-image {
     background-attachment: scroll;
@@ -199,7 +208,7 @@ hr.work {
   p {
     text-align: left;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
