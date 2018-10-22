@@ -8,6 +8,28 @@ body {
 .navbar-brand {
   font-family: "Sofia";
   font-size: 30px;
+  color: #d27377 !important;
+}
+
+a{
+  color: #d27377;
+}
+a:hover{
+  color: #bd676b;
+  text-decoration: none;
+}
+
+.lng-en, .lng-bg{
+  color: 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #bd676b;
+}
+
+.dropdown-menu{
+  min-width: 7rem;
 }
 
 .background-image {
@@ -192,7 +214,7 @@ hr.work {
     padding: 10px;
   }
   #contact .btn-social i {
-    color: #1d70ff;
+    color: #d27377;
   }
   #contact .social li {
     margin: 5px;
@@ -212,9 +234,14 @@ hr.work {
   }
 }
 
+/* for larger screens */
 @media (min-width: 900px) {
   .portfolio-item img:hover {
     margin: 5px 0;
     opacity: .7;
   }
+  a.text-light:focus, a.text-light:hover {
+    border-bottom: 3px solid #d27377;
+    border-radius: 0;
+}
 }
