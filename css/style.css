@@ -11,24 +11,21 @@ body {
   color: #d27377 !important;
 }
 
-a{
+a {
   color: #d27377;
 }
-a:hover{
+a:hover {
   color: #bd676b;
   text-decoration: none;
 }
 
-.lng-en, .lng-bg{
-  color: 
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #fff;
   background-color: #bd676b;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   min-width: 7rem;
 }
 
@@ -45,18 +42,18 @@ a:hover{
   background-size: cover;
 }
 
-.over{
+.over {
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   background: rgba(51, 51, 51, 1);
   opacity: 0.7;
-
 }
 
-.title, .intro {
+.title,
+.intro {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -112,10 +109,15 @@ h3 {
   letter-spacing: 6px;
 }
 
+.view-code {
+  display: block;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
 hr.work {
   max-width: 150px;
-  border-color: black;
-  border-top: solid: 5px;
+  border-top: 2px solid #444;
 }
 
 /*.portfolio-item{
@@ -128,7 +130,7 @@ hr.work {
   border-radius: 10px;
   margin: 20px 0;
   opacity: 1;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 /*.portfolio-item img:hover{
@@ -177,7 +179,7 @@ hr.work {
 }
 
 #contact .social a {
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #contact .social li:hover i {
@@ -194,8 +196,9 @@ hr.work {
 }*/
 
 /* Media queries */
-@media (max-width: 995px){
-  .row, p{
+@media (max-width: 995px) {
+  .row,
+  p {
     text-align: left;
     font-size: 16px;
     padding: 30px 0px;
@@ -232,16 +235,23 @@ hr.work {
     line-height: 1.2;
     font-size: 16px;
   }
+  .view-code {
+    display: inline-block;
+  }
 }
 
 /* for larger screens */
 @media (min-width: 900px) {
   .portfolio-item img:hover {
     margin: 5px 0;
-    opacity: .7;
+    opacity: 0.7;
   }
-  a.text-light:focus, a.text-light:hover {
+  a.text-light:focus,
+  a.text-light:hover {
     border-bottom: 3px solid #d27377;
     border-radius: 0;
-}
+  }
+  .view-code {
+    margin-top: 2.5rem;
+  }
 }
