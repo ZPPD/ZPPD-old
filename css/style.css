@@ -137,6 +137,20 @@ hr.work {
   margin: 20px 0;
   opacity: 1;
   transition: all 0.3s;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+}
+
+.zoom img {
+  width: 90%;
+  height: 90%;
+}
+
+.zoom img:hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
 }
 
 /*.portfolio-item img:hover{
@@ -255,9 +269,14 @@ hr.work {
 
 /* for larger screens */
 @media (min-width: 900px) {
-  .portfolio-item img:hover {
+  /* .portfolio-item img:hover {
     margin: 5px 0;
     opacity: 0.7;
+  } */
+  .zoom img:hover {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
   }
   a.text-light:focus,
   a.text-light:hover {
