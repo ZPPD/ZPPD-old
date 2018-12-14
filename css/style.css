@@ -133,7 +133,7 @@ hr.work {
   transition: all 0.3s;
   width: 90%;
   height: 90%;
-  box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 10px 6px #ccc;
 }
 
 .overlay {
@@ -182,6 +182,10 @@ hr.work {
 
 #contact .social li:hover i {
   color: #e5e5e5;
+}
+
+.social ul {
+  padding: 5px;
 }
 
 /*.overlay{

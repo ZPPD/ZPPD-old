@@ -1,3 +1,47 @@
+//  Navbar toggle
+$(".navbar-toggler").on("click", function() {
+  $("#pushContent").slideToggle();
+});
+
+// Smooth Scrolling
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+
+      if (target.length) {
+        // Get the height of the navbar
+        var navbarHeight = $("div#navbar").height();
+
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top - 120
+          },
+          1000
+        );
+        return false;
+      }
+    }
+  });
+});
+
+// Scroll Reveal
+window.sr = ScrollReveal();
+sr.reveal(".project-one-left", {
+  duration: 2000,
+  easing: "ease",
+  scale: 0.85
+});
+sr.reveal(".project-one-right", {
+  duration: 2000,
+  easing: "ease",
+  scale: 0.85
+});
 
 /*
 function checkName() {
