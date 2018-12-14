@@ -202,7 +202,7 @@
             </div>
             <hr />
           -->
-          <div class="row m-5">
+          <div class="row">
             <div class="col-sm-6 project-one-left">
               <h4 id="one" translate="ONE">Movie App</h4>
               <p translate="NEWS">
@@ -261,7 +261,7 @@
             </div>
             <hr />
           -->
-          <div class="row ">
+          <div class="row">
             <div class="col-sm-6 project-one-right order-sm-2">
               <h4 id="four" translate="FOUR">RJD Heating and Cooling</h4>
               <p translate="STATUS">
@@ -290,7 +290,7 @@
           </div>
           <hr />
           <!-- Project 3 -->
-          <div class="row ">
+          <div class="row">
             <div class="col-sm-6  project-one-left">
               <h4 id="five" translate="FIVE">Cafe Website</h4>
               <p translate="CAFE">
@@ -444,7 +444,7 @@
             <hr />
           -->
           <!-- Project 7 -->
-          <div class="row ">
+          <div class="row">
             <div class="col-sm-6  project-one-right order-sm-2">
               <h4 id="seven" translate="SEVEN">Quiz</h4>
               <p translate="QUIZ">
@@ -583,76 +583,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- Navbar toggle, Smooth Scrolling and Scroll Reveal -->
-    <script>
-      $(".navbar-toggler").on("click", function() {
-        $("#pushContent").slideToggle();
-      });
-
-      $(function() {
-        // Smooth Scrolling
-        $('a[href*="#"]:not([href="#"])').click(function() {
-          if (
-            location.pathname.replace(/^\//, "") ==
-              this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-          ) {
-            var target = $(this.hash);
-            target = target.length
-              ? target
-              : $("[name=" + this.hash.slice(1) + "]");
-
-            if (target.length) {
-              // Get the height of the navbar
-              var navbarHeight = $("div#navbar").height();
-
-              $("html, body").animate(
-                {
-                  scrollTop: target.offset().top - 120
-                },
-                1000
-              );
-              return false;
-            }
-          }
-        });
-      });
-
-      window.sr = ScrollReveal();
-      sr.reveal(".project-one-left", {
-        duration: 2000,
-        origin: "top",
-        distance: "300px"
-      });
-      sr.reveal(".project-one-right", {
-        duration: 2000,
-        origin: "top",
-        distance: "300px"
-      });
-      /* sr.reveal('.project-two-left' , {
-        duration: 2000,
-        origin:'left',
-        delay: 1000,
-        distance:'300px'
-      });
-      sr.reveal('.project-two-right', {
-        duration: 2000,
-        origin:'right',
-        delay: 1000,
-        distance:'300px'
-      }); */
-      sr.reveal(".project-seven-left", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "300px",
-        viewFactor: 0.2
-      });
-      sr.reveal(".project-seven-right", {
-        duration: 2000,
-        origin: "bottom",
-        distance: "300px",
-        viewFactor: 0.2
-      });
-    </script>
   </body>
 </html>
