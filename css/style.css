@@ -165,6 +165,7 @@ hr.work {
 }
 
 #contact .btn-social i {
+  display: inline;
   color: #262626;
 }
 
