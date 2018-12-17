@@ -185,10 +185,6 @@ hr.work {
   color: #e5e5e5;
 }
 
-.social ul {
-  padding: 5px;
-}
-
 /*.overlay{
   background-color: rgba(109, 161, 251, 1);
   width: 100%;
@@ -231,7 +227,7 @@ hr.work {
   }
 
   #contact .social li {
-    margin: 5px;
+    margin: 4px;
   }
   #contact .social a {
     background: #262626;
