@@ -28,45 +28,57 @@
     <header id="home" role="banner">
       <nav
         id="navbar"
-        class="navbar  fixed-top navbar-dark bg-dark"
+        class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
         role="navigation"
       >
         <a class="navbar-brand" href="#" translate="Brand">Жана Дохърти</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#about" translate="ABOUT"
-              >За Мен</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#work" translate="WORK"
-              >Проекти</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#contact" translate="CONTACT"
-              >Контакти</a
-            >
-          </li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-pills ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about" translate="ABOUT"
+                >За Мен</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#work" translate="WORK"
+                >Проекти</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact" translate="CONTACT"
+                >Контакти</a
+              >
+            </li>
 
-          <li class="nav-item dropdown pr-3">
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Език</a
-            >
-            <div class="dropdown-menu">
-              <a class="lng-en" href="/index.html">EN</a><br />
-              <a class="lng-bg" href="#">BG</a>
-            </div>
-          </li>
+            <li class="nav-item dropdown pr-3">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Език</a
+              >
+              <div class="dropdown-menu">
+                <a class="lng-en" href="/index.html">EN</a><br />
+                <a class="lng-bg" href="#">BG</a>
+              </div>
+            </li>
 
-          <!-- Drop down -->
-          <!--
+            <!-- Drop down -->
+            <!--
             <li class="nav-item dropdown pr-3">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
               <div class="dropdown-menu">
@@ -77,8 +89,8 @@
                 <a class="dropdown-item" href="#contact">Contact me</a>
               </div>
             </li>
-          -->
-        </ul>
+          --></ul>
+        </div>
       </nav>
 
       <section class="background-image">
