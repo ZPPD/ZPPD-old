@@ -19,6 +19,10 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-pills {
+  float: right;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
