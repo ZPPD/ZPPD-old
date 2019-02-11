@@ -78,6 +78,10 @@ a:hover {
   font-size: 2.5rem;
 }
 
+.stack {
+  color: #d27377;
+}
+
 /*.pborder {
 //  background-color: #24282c;
   background-color: #000;
