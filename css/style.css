@@ -160,6 +160,16 @@ hr.work {
   opacity: 0.8;
 } */
 
+/* why section */
+.why-icon{
+  color: #d27377;
+}
+
+.why-text{
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
 .contact-background {
   position: relative;
   background-color: #f3f3f3;

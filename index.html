@@ -153,226 +153,260 @@
 
     <!-- About and Work -->
 
-    <main class="container-fluid" role="main">
-      <div class="content text-center">
-        <!-- <div id="hello" class="bg-dark text-light"> -->
-        <div class="row bg-dark text-light">
-          <div class="col-sm-6 about-img-flex">
-            <img class="about-img" src="img/zhana.jpg" alt="Zhana Dougherty" />
+    <main role="main">
+      <section class="container-fluid">
+        <div class="content text-center">
+          <!-- <div id="hello" class="bg-dark text-light"> -->
+          <div class="row bg-dark text-light">
+            <div class="col-sm-6 about-img-flex">
+              <img class="about-img" src="img/zhana.jpg" alt="Zhana Dougherty" />
+            </div>
+            <div class="col-sm-6 ">
+              <h2 id="about" translate="ABOUT_ME" aria-labelledby="About">
+                About Me
+              </h2>
+              <p id="info" translate="INFO">
+                Welcome!<br />
+                I am Zhana and this is my portfolio website. <br />
+                I live and work in USA, but i was born and raised in Bulgaria,
+                where I got my Bachelors degree in Computer Engineering. <br />
+                I am a passionate developer, and love to stay up to date with the
+                latest in web development technology. This website is one of the
+                many projects i have been working on in the last year. I enjoy
+                creating websites and I am mostly using
+                <strong><span class="stack">HTML5</span></strong
+                >, <strong><span class="stack">CSS3</span></strong
+                >, <strong><span class="stack">SCSS</span></strong
+                >, <strong><span class="stack">JavaScript</span></strong> and
+                <strong><span class="stack">ReactJS</span></strong> in my work.
+                <br />
+                I am a person with many interests and hobbies. I like hiking,
+                jogging and spending time with friends and family.
+              </p>
+            </div>
+            <!-- </div> -->
           </div>
-          <div class="col-sm-6 ">
-            <h2 id="about" translate="ABOUT_ME" aria-labelledby="About">
-              About Me
-            </h2>
-            <p id="info" translate="INFO">
-              Welcome!<br />
-              I am Zhana and this is my portfolio website. <br />
-              I live and work in USA, but i was born and raised in Bulgaria,
-              where I got my Bachelors degree in Computer Engineering. <br />
-              I am a passionate developer, and love to stay up to date with the
-              latest in web development technology. This website is one of the
-              many projects i have been working on in the last year. I enjoy
-              creating websites and I am mostly using
-              <strong><span class="stack">HTML5</span></strong
-              >, <strong><span class="stack">CSS3</span></strong
-              >, <strong><span class="stack">SCSS</span></strong
-              >, <strong><span class="stack">JavaScript</span></strong> and
-              <strong><span class="stack">ReactJS</span></strong> in my work.
-              <br />
-              I am a person with many interests and hobbies. I like hiking,
-              jogging and spending time with friends and family.
-            </p>
+
+          <div id="work" class="container bg-white" aria-label="Projects">
+            <h3 translate="WORK">Work</h3>
+            <hr class="work" />
+            <br />
+            <!-- <div id="projects" class="bg-light"> -->
+            <!-- Project 1 -->
+
+            <div class="row">
+              <div class="col-sm-6 project-one-left">
+                <h4 id="one" translate="ONE">Movie App</h4>
+                <p translate="NEWS">
+                  Movie info application, build with React, Redux and custom CSS.
+                  I am using fetch API for making requests and fetching the
+                  information from The Movie DB. Here you can look up your
+                  favorite movie, find more information about the actors or
+                  discover new movies and shows from the discover link.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/MovieApp"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> View code</a
+                >
+              </div>
+              <div class="col-sm-6 project-one-right">
+                <div class=" portfolio-item">
+                  <a target="_blank" href="https://zppd.github.io/MovieApp/#/">
+                    <img
+                      class=" img-fluid"
+                      src="img/movieApp.png"
+                      alt="Movie App Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 2 -->
+
+            <div class="row">
+              <div class="col-sm-6 project-one-right order-sm-2">
+                <h4 id="four" translate="FOUR">RJD Heating and Cooling</h4>
+                <p translate="STATUS">
+                  This is a website for a Heating and Cooling company.For creating
+                  it I have used Bootstrap, HTML5, custom CSS, and JavaScript. I
+                  have implemented HTML tables and forms, CSS hovering effects,
+                  JavaScript event listeners. I am also using Google Maps API for
+                  the Contact page.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/hvac"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> View code</a
+                >
+              </div>
+              <div class="col-sm-6 project-one-left order-sm-1">
+                <div class="portfolio-item ">
+                  <a target="_blank" href="https://zppd.github.io/hvac/"
+                    ><img
+                      class="img-fluid"
+                      src="img/hvac.png"
+                      alt="Heating and Cooling Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 3 -->
+            <div class="row">
+              <div class="col-sm-6  project-one-left">
+                <h4 id="five" translate="FIVE">Tech Solutions</h4>
+                <p translate="Tech">
+                  A modern website for a company named Tech Solutions. I have
+                  built it using SASS pre-processor, which is compiled to regular
+                  CSS. I am using ApexCharts.js for the dashboard. For the news
+                  page, I am making requests to newsapi.org, using async await and
+                  DOM manipulation.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/TechSolutions"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> View code</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-right">
+                <div class="portfolio-item ">
+                  <a target="_blank" href="https://zppd.github.io/TechSolutions/"
+                    ><img
+                      class="img-fluid"
+                      src="img/techSolutions.png"
+                      alt="Tech Solutions"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 4 -->
+            <div class="row">
+              <div class="col-sm-6  project-one-right order-sm-2">
+                <h4 id="five" translate="FIVE">Cafe Website</h4>
+                <p translate="CAFE">
+                  In this web site I have used my responsive design knowledge.
+                  This is a minimalist website, that changes its layout when on
+                  mobile mode. I have used HTML and CSS. I have used media queries
+                  for the responsiveness.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Website"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> View code</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-left order-sm-1">
+                <div class="portfolio-item ">
+                  <a target="_blank" href="Website/index.html"
+                    ><img
+                      class="img-fluid"
+                      src="img/cofeeShop.png"
+                      alt="Responsive Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 5 -->
+            <div class="row">
+              <div class="col-sm-6  project-one-right order-sm-1">
+                <h4 id="seven" translate="SEVEN">Quiz</h4>
+                <p translate="QUIZ">
+                  This is a simple JavaScript quiz, for which i used HTML, CSS,
+                  Bootstrap 4 and jQuery. The next button can be clicked on only
+                  if the correct answer was selected. The quiz is also responsive
+                  and can be done on a mobile phone.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Test"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> View code</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-left order-sm-2">
+                <div class="portfolio-item ">
+                  <a target="_blank" href="Test/index.html"
+                    ><img class="img-fluid" src="img/Test.png" alt="Quiz Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- </div> -->
         </div>
+      </section>
+      <!-- Why Section -->
+      <section class='why text-center m-5 p-5'>
+        <h2>Why work with me?</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class='why-icon'>
+              <i class="fas fa-code fa-3x"></i>
+            </div>
+            <div>
+              <h3 class='why-text'>Passionate About Development</h3>
+              <p></p>
+            </div>
+          </div>
 
-        <div id="work" class="container bg-white" aria-label="Projects">
-          <h3 translate="WORK">Work</h3>
-          <hr class="work" />
-          <br />
-          <!-- <div id="projects" class="bg-light"> -->
-          <!-- Project 1 -->
+          <div class="col-sm-4">
+            <div class='why-icon'>
+              <i class="fas fa-book-open fa-3x"></i>
+            </div>
+            <div>
+              <h3 class='why-text'>Quick Learner</h3>
+              <p></p>
+            </div>
+          </div>
 
-          <div class="row">
-            <div class="col-sm-6 project-one-left">
-              <h4 id="one" translate="ONE">Movie App</h4>
-              <p translate="NEWS">
-                Movie info application, build with React, Redux and custom CSS.
-                I am using fetch API for making requests and fetching the
-                information from The Movie DB. Here you can look up your
-                favorite movie, find more information about the actors or
-                discover new movies and shows from the discover link.
-              </p>
-              <a
-                href="https://github.com/ZPPD/MovieApp"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> View code</a
-              >
+          <div class="col-sm-4">
+            <div class='why-icon'>
+              <i class="fas fa-users fa-3x"></i>
             </div>
-            <div class="col-sm-6 project-one-right">
-              <div class=" portfolio-item">
-                <a target="_blank" href="https://zppd.github.io/MovieApp/#/">
-                  <img
-                    class=" img-fluid"
-                    src="img/movieApp.png"
-                    alt="Movie App Project"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <!-- Project 2 -->
-
-          <div class="row">
-            <div class="col-sm-6 project-one-right order-sm-2">
-              <h4 id="four" translate="FOUR">RJD Heating and Cooling</h4>
-              <p translate="STATUS">
-                This is a website for a Heating and Cooling company.For creating
-                it I have used Bootstrap, HTML5, custom CSS, and JavaScript. I
-                have implemented HTML tables and forms, CSS hovering effects,
-                JavaScript event listeners. I am also using Google Maps API for
-                the Contact page.
-              </p>
-              <a
-                href="https://github.com/ZPPD/hvac"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> View code</a
-              >
-            </div>
-            <div class="col-sm-6 project-one-left order-sm-1">
-              <div class="portfolio-item ">
-                <a target="_blank" href="https://zppd.github.io/hvac/"
-                  ><img
-                    class="img-fluid"
-                    src="img/hvac.png"
-                    alt="Heating and Cooling Project"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <!-- Project 3 -->
-          <div class="row">
-            <div class="col-sm-6  project-one-left">
-              <h4 id="five" translate="FIVE">Tech Solutions</h4>
-              <p translate="Tech">
-                A modern website for a company named Tech Solutions. I have
-                built it using SASS pre-processor, which is compiled to regular
-                CSS. I am using ApexCharts.js for the dashboard. For the news
-                page, I am making requests to newsapi.org, using async await and
-                DOM manipulation.
-              </p>
-              <a
-                href="https://github.com/ZPPD/TechSolutions"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> View code</a
-              >
-            </div>
-            <div class="col-sm-6  project-one-right">
-              <div class="portfolio-item ">
-                <a target="_blank" href="https://zppd.github.io/TechSolutions/"
-                  ><img
-                    class="img-fluid"
-                    src="img/techSolutions.png"
-                    alt="Tech Solutions"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <!-- Project 4 -->
-          <div class="row">
-            <div class="col-sm-6  project-one-right order-sm-2">
-              <h4 id="five" translate="FIVE">Cafe Website</h4>
-              <p translate="CAFE">
-                In this web site I have used my responsive design knowledge.
-                This is a minimalist website, that changes its layout when on
-                mobile mode. I have used HTML and CSS. I have used media queries
-                for the responsiveness.
-              </p>
-              <a
-                href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Website"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> View code</a
-              >
-            </div>
-            <div class="col-sm-6  project-one-left order-sm-1">
-              <div class="portfolio-item ">
-                <a target="_blank" href="Website/index.html"
-                  ><img
-                    class="img-fluid"
-                    src="img/cofeeShop.png"
-                    alt="Responsive Project"
-                /></a>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <!-- Project 5 -->
-          <div class="row">
-            <div class="col-sm-6  project-one-right order-sm-1">
-              <h4 id="seven" translate="SEVEN">Quiz</h4>
-              <p translate="QUIZ">
-                This is a simple JavaScript quiz, for which i used HTML, CSS,
-                Bootstrap 4 and jQuery. The next button can be clicked on only
-                if the correct answer was selected. The quiz is also responsive
-                and can be done on a mobile phone.
-              </p>
-              <a
-                href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Test"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> View code</a
-              >
-            </div>
-            <div class="col-sm-6  project-one-left order-sm-2">
-              <div class="portfolio-item ">
-                <a target="_blank" href="Test/index.html"
-                  ><img class="img-fluid" src="img/Test.png" alt="Quiz Project"
-                /></a>
-              </div>
+            <div>
+              <h3 class='why-text'>Team Player</h3>
+              <p></p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <!-- Contact -->
-    <!--
-      <section id="contact">
-          <div class="container">
-           <div class="row">
-              <div class="col-m-5 col-sm-5">
-               <form>
-                  <div class="form-group has-success">
-                    <label class="control-label">Name:  *</label>
-                    <input id="name" class="form-control input-lg" type="text" name="name" value="" placeholder="Enter Name">
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label">Company:</label>
-                    <input class="form-control" type="text" name="company" value="" placeholder="Company name">
-                  </div>
-                  <div class="form-group has-success">
-                      <label for="Email" class="control-label">Email:  *</label>
-                      <input id="email" class="form-control" type="email" name="email" value="" placeholder="Enter e-mail">
-                    </div>
-                    <div class="form-group has-success">
-                      <label for="message" class="control-label">Message:  *</label>
-                      <textarea id="msg" class="form-control" name="msg" rows="3" value="" placeholder="Enter Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                    <button id="btn" class="btn btn-primary" type="submit">Send</button>
-                  </div>
-                </form>
-              </div>
-              <div class="col-m-7 col-sm-7">
-              </div>
-          </div>
+  
+    <section id="contact">
+        <div class="container px-5">
+          <div class="row">
+            <div class="col align-self-center">
+              <form>
+                <div class="form-group has-success">
+                  <label class="control-label">Name:</label>
+                  <input id="name" class="form-control input-lg" type="text" name="name" value="" placeholder="Enter Name">
+                </div>      
+                <div class="form-group has-success">
+                  <label for="Email" class="control-label">Email:</label>
+                  <input id="email" class="form-control" type="email" name="email" value="" placeholder="Enter e-mail">
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Subject:</label>
+                  <input class="form-control" type="text" name="subject" value="" placeholder="Subject">
+                </div>  
+                <div class="form-group has-success">
+                  <label for="message" class="control-label">Message:</label>
+                  <textarea id="msg" class="form-control" name="msg" rows="3" value="" placeholder="Enter Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <button id="btn" class="btn btn-primary" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+            <!-- <div class="col-m-7 col-sm-7">
+            </div> -->
           </div>
         </div>
-
-
-      </section>
-    -->
+    </section>
+  
     <div class="contact-background">
       <div class="overlay"></div>
       <div id="contact" aria-label="Contact information">
