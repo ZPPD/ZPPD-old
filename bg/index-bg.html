@@ -56,7 +56,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#contact" translate="CONTACT"
+              <a
+                class="nav-link text-light"
+                href="#social-contact"
+                translate="CONTACT"
                 >Контакти</a
               >
             </li>
@@ -106,191 +109,318 @@
 
     <!-- About and Work -->
 
-    <main class="container-fluid" role="main">
-      <div class="content text-center">
-        <!-- <div id="hello" class="bg-dark text-light"> -->
-        <div class="row bg-dark text-light">
-          <div class="col-sm-6 about-img-flex">
-            <img class="about-img" src="../img/zhana.jpg" alt="Жана Дохърти" />
+    <main role="main">
+      <section class="container-fluid">
+        <div class="content text-center">
+          <!-- <div id="hello" class="bg-dark text-light"> -->
+          <div class="row bg-dark text-light">
+            <div class="col-sm-6 about-img-flex">
+              <img
+                class="about-img"
+                src="../img/zhana.jpg"
+                alt="Жана Дохърти"
+              />
+            </div>
+            <div class="col-sm-6 ">
+              <h2 id="about" translate="ABOUT_ME">За Мен</h2>
+              <p class="info" translate="INFO">
+                Добре Дошли!<br />
+                Аз съм Жана, а това е моето портфолио. <br />
+                Живея в Америка, но съм родена и израстнала в България, където
+                завърших образованието си като Компютърен Инженер. <br />
+                Причината да се занимавам с програмиране е, че за мен уеб
+                технологиите винаги са представлявали интересно
+                предизвикателство. Тази страница е един от многото проекти, с
+                които се занимавам напоследък. Създаването на модерни уеб
+                сайтове е нещо, което правя с удоволствие. В момента използвам
+                най-вече
+                <strong><span class="stack">HTML5</span></strong
+                >, <strong><span class="stack">CSS3</span></strong
+                >, <strong><span class="stack">SCSS</span></strong
+                >, <strong><span class="stack">JavaScript</span></strong> и
+                <strong><span class="stack">ReactJS</span></strong
+                >. <br />
+                Освен програмиране имам и още много хобита и интереси. Обичам
+                походи, разходки сред природата, и най-вече да прекарвам време с
+                моето семейство и приятели.
+              </p>
+            </div>
+            <!-- </div> -->
           </div>
-          <div class="col-sm-6 ">
-            <h2 id="about" translate="ABOUT_ME">За Мен</h2>
-            <p class="info" translate="INFO">
-              Добре Дошли!<br />
-              Аз съм Жана, а това е моето портфолио. <br />
-              Живея в Америка, но съм родена и израстнала в България, където
-              завърших образованието си като Компютърен Инженер. <br />
-              Причината да се занимавам с програмиране е, че за мен уеб
-              технологиите винаги са представлявали интересно предизвикателство.
-              Тази страница е един от многото проекти, с които се занимавам
-              напоследък. Създаването на модерни уеб сайтове е нещо, което правя
-              с удоволствие. В момента използвам най-вече
-              <strong><span class="stack">HTML5</span></strong
-              >, <strong><span class="stack">CSS3</span></strong
-              >, <strong><span class="stack">SCSS</span></strong
-              >, <strong><span class="stack">JavaScript</span></strong> и
-              <strong><span class="stack">ReactJS</span></strong
-              >. <br />
-              Освен програмиране имам и още много хобита и интереси. Обичам
-              походи, разходки сред природата, и най-вече да прекарвам време с
-              моето семейство и приятели.
-            </p>
-          </div>
-          <!-- </div> -->
-        </div>
 
-        <div id="work" class="container bg-white">
-          <h3 translate="WORK">Проекти</h3>
-          <hr class="work" />
-          <br />
-          <!-- <div id="projects" class="bg-light"> -->
-          <!-- Project 1 -->
-          <div class="row">
-            <div class="col-sm-6 project-one-left">
-              <h4 id="one" translate="ONE">Филми Инфо</h4>
-              <p translate="NEWS">
-                Апликация за филмова информация, изградена с React, Redux и
-                персонализиран CSS. Използвам fetch API за подаване на заявки и
-                извличането на информация от The Movie DB. Тук можете да търсите
-                вашите любими филми, да намерите повече информация за актьорите
-                или откриете нови филми и сериали.
-              </p>
-              <a
-                href="https://github.com/ZPPD/MovieApp"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> Виж кода</a
-              >
+          <div id="work" class="container bg-white">
+            <h3 translate="WORK">Проекти</h3>
+            <hr class="work" />
+            <br />
+            <!-- <div id="projects" class="bg-light"> -->
+            <!-- Project 1 -->
+            <div class="row">
+              <div class="col-sm-6 project-one-left">
+                <h4 id="one" translate="ONE">Филми Инфо</h4>
+                <p translate="NEWS">
+                  Апликация за филмова информация, изградена с React, Redux и
+                  персонализиран CSS. Използвам fetch API за подаване на заявки
+                  и извличането на информация от The Movie DB. Тук можете да
+                  търсите вашите любими филми, да намерите повече информация за
+                  актьорите или откриете нови филми и сериали.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/MovieApp"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> Виж кода</a
+                >
+              </div>
+              <div class="col-sm-6 project-one-right">
+                <div class=" portfolio-item">
+                  <a target="_blank" href="https://zppd.github.io/MovieApp/#/">
+                    <img
+                      class=" img-fluid"
+                      src="/img/movieApp.png"
+                      alt="Movie App Project"
+                  /></a>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 project-one-right">
-              <div class=" portfolio-item">
-                <a target="_blank" href="https://zppd.github.io/MovieApp/#/">
-                  <img
-                    class=" img-fluid"
-                    src="/img/movieApp.png"
-                    alt="Movie App Project"
-                /></a>
+            <hr />
+            <!-- Project 2 -->
+            <div class="row ">
+              <div class="col-sm-6 project-one-right order-sm-2">
+                <h4 id="four" translate="FOUR">RJD Отопление и Климатизаци</h4>
+                <p translate="STATUS">
+                  Този уебсайт е за фирма, която се занимава с
+                  отопление,вентилация и климатизация. Изграден е с Bootstrap,
+                  HTML5, персонализиран CSS и JavaScript. Използвала съм HTML
+                  таблици и формуляри,CSS ефекти, слушатели на събития с
+                  JavaScript.В страницата за контакти използвам Google Maps API.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/hvac"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> Виж кода</a
+                >
+              </div>
+              <div class="col-sm-6 project-one-left order-sm-1">
+                <div class="portfolio-item">
+                  <a target="_blank" href="https://zppd.github.io/hvac/"
+                    ><img
+                      class="d-block w-100"
+                      src="/img/hvac.png"
+                      alt="Loan Calculator Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 3 -->
+            <div class="row ">
+              <div class="col-sm-6  project-one-left">
+                <h4 id="five" translate="FIVE">Технически Решения</h4>
+                <p translate="TECH">
+                  Модерен уебсайт за компания Технически Решения. Изграден е с
+                  помощта на SASS предпроцесор, който се компилира до нормален
+                  CSS. Използвам ApexCharts.js за таблото. За страницата с
+                  новини изпращам заявка до newsapi.org, с помощта на async
+                  await.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/TechSolutions"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> Виж кода</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-right">
+                <div class="portfolio-item">
+                  <a
+                    target="_blank"
+                    href="https://zppd.github.io/TechSolutions/"
+                    ><img
+                      class="d-block w-100"
+                      src="/img/techSolutions.png"
+                      alt="Tech Solutions"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 4 -->
+            <div class="row ">
+              <div class="col-sm-6  project-one-right order-sm-2">
+                <h4 id="five" translate="FIVE">Кафене</h4>
+                <p translate="CAFE">
+                  Това е адаптивен уеб сайт, който променя оформлението си в
+                  мобилен режим. Използвала съм HTML и CSS. Адаптивността е
+                  постигната с медийни заявки.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Website"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> Виж кода</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-left order-sm-1">
+                <div class="portfolio-item">
+                  <a target="_blank" href="/Website/index.html"
+                    ><img
+                      class="d-block w-100"
+                      src="/img/cofeeShop.png"
+                      alt="Responsive Project"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- Project 5 -->
+            <div class="row ">
+              <div class="col-sm-6  project-one-right order-sm-1">
+                <h4 id="seven" translate="SEVEN">Тест</h4>
+                <p translate="QUIZ">
+                  Това е лесен JavaScript тест, за който използвах HTML, CSS,
+                  Bootstrap 4 и jQuery. Тестът е проектиран така, че не може да
+                  се мине към следващият въпрос, ако не е избран правилният
+                  отговор. Тестът също е адаптивен и може да се направи на
+                  мобилен телефон.
+                </p>
+                <a
+                  href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Test"
+                  class="view-code bg-dark text-center p-2"
+                  ><i class="fab fa-github"></i> Виж кода</a
+                >
+              </div>
+              <div class="col-sm-6  project-one-left order-sm-2">
+                <div class="portfolio-item">
+                  <a target="_blank" href="/Test/index.html"
+                    ><img
+                      class="d-block w-100"
+                      src="/img/Test.png"
+                      alt="Quiz Project"
+                  /></a>
+                </div>
               </div>
             </div>
           </div>
-          <hr />
-          <!-- Project 2 -->
-          <div class="row ">
-            <div class="col-sm-6 project-one-right order-sm-2">
-              <h4 id="four" translate="FOUR">RJD Отопление и Климатизаци</h4>
-              <p translate="STATUS">
-                Този уебсайт е за фирма, която се занимава с
-                отопление,вентилация и климатизация. Изграден е с Bootstrap,
-                HTML5, персонализиран CSS и JavaScript. Използвала съм HTML
-                таблици и формуляри,CSS ефекти, слушатели на събития с
-                JavaScript.В страницата за контакти използвам Google Maps API.
-              </p>
-              <a
-                href="https://github.com/ZPPD/hvac"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> Виж кода</a
-              >
+        </div>
+      </section>
+
+      <!-- Why Section -->
+      <section class="why text-center m-5 p-5">
+        <h2>Защо да работите с мен?</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="why-icon">
+              <i class="fas fa-code fa-3x"></i>
             </div>
-            <div class="col-sm-6 project-one-left order-sm-1">
-              <div class="portfolio-item">
-                <a target="_blank" href="https://zppd.github.io/hvac/"
-                  ><img
-                    class="d-block w-100"
-                    src="/img/hvac.png"
-                    alt="Loan Calculator Project"
-                /></a>
-              </div>
+            <div>
+              <h3 class="why-text">Passionate Developer</h3>
+              <p>
+                Always give 100% commintment with anything you do. But 110% with
+                what you love.
+              </p>
             </div>
           </div>
-          <hr />
-          <!-- Project 3 -->
-          <div class="row ">
-            <div class="col-sm-6  project-one-left">
-              <h4 id="five" translate="FIVE">Технически Решения</h4>
-              <p translate="TECH">
-                Модерен уебсайт за компания Технически Решения. Изграден е с
-                помощта на SASS предпроцесор, който се компилира до нормален
-                CSS. Използвам ApexCharts.js за таблото. За страницата с новини
-                изпращам заявка до newsapi.org, с помощта на async await.
-              </p>
-              <a
-                href="https://github.com/ZPPD/TechSolutions"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> Виж кода</a
-              >
+
+          <div class="col-sm-4">
+            <div class="why-icon">
+              <i class="fas fa-book-open fa-3x"></i>
             </div>
-            <div class="col-sm-6  project-one-right">
-              <div class="portfolio-item">
-                <a target="_blank" href="https://zppd.github.io/TechSolutions/"
-                  ><img
-                    class="d-block w-100"
-                    src="/img/techSolutions.png"
-                    alt="Tech Solutions"
-                /></a>
-              </div>
+            <div>
+              <h3 class="why-text">Quick Learner</h3>
+              <p>
+                Ability to process and aquire new skills along the way. Always
+                eager to discover new lands.
+              </p>
             </div>
           </div>
-          <hr />
-          <!-- Project 4 -->
-          <div class="row ">
-            <div class="col-sm-6  project-one-right order-sm-2">
-              <h4 id="five" translate="FIVE">Кафене</h4>
-              <p translate="CAFE">
-                Това е адаптивен уеб сайт, който променя оформлението си в
-                мобилен режим. Използвала съм HTML и CSS. Адаптивността е
-                постигната с медийни заявки.
-              </p>
-              <a
-                href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Website"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> Виж кода</a
-              >
+
+          <div class="col-sm-4">
+            <div class="why-icon">
+              <i class="fas fa-users fa-3x"></i>
             </div>
-            <div class="col-sm-6  project-one-left order-sm-1">
-              <div class="portfolio-item">
-                <a target="_blank" href="/Website/index.html"
-                  ><img
-                    class="d-block w-100"
-                    src="/img/cofeeShop.png"
-                    alt="Responsive Project"
-                /></a>
-              </div>
+            <div>
+              <h3 class="why-text">Team Player</h3>
+              <p>
+                It's great to have others around for input and also to learn
+                from. In return, you should always be willing to share your
+                thoughts and knowledge of what we picked up alont the way.
+              </p>
             </div>
           </div>
-          <hr />
-          <!-- Project 5 -->
-          <div class="row ">
-            <div class="col-sm-6  project-one-right order-sm-1">
-              <h4 id="seven" translate="SEVEN">Тест</h4>
-              <p translate="QUIZ">
-                Това е лесен JavaScript тест, за който използвах HTML, CSS,
-                Bootstrap 4 и jQuery. Тестът е проектиран така, че не може да се
-                мине към следващият въпрос, ако не е избран правилният отговор.
-                Тестът също е адаптивен и може да се направи на мобилен телефон.
-              </p>
-              <a
-                href="https://github.com/ZPPD/ZPPD.github.io/tree/master/Test"
-                class="view-code bg-dark text-center p-2"
-                ><i class="fab fa-github"></i> Виж кода</a
-              >
+        </div>
+      </section>
+    </main>
+
+    <!-- Contact -->
+
+    <!-- <section id="contact" class="bg-white" aria-label="Contact Form">
+      <div class="container px-sm-5">
+        <div class="row">
+          <div class="col align-self-center">
+            <div class="mb-5 text-center">
+              <h2>Свържете се с мен</h2>
+              <p>Изпратете ми имейл или се свържете с мен в Linked In.</p>
             </div>
-            <div class="col-sm-6  project-one-left order-sm-2">
-              <div class="portfolio-item">
-                <a target="_blank" href="/Test/index.html"
-                  ><img
-                    class="d-block w-100"
-                    src="/img/Test.png"
-                    alt="Quiz Project"
-                /></a>
+            <form class="pt-sm-3">
+              <div class="form-group has-success">
+                <label class="control-label">Име:</label>
+                <input
+                  id="name"
+                  class="form-control p-sm-3"
+                  type="text"
+                  name="name"
+                  value=""
+                  placeholder="Име"
+                />
               </div>
-            </div>
+              <div class="form-group has-success">
+                <label for="Email" class="control-label">Имейл:</label>
+                <input
+                  id="email"
+                  class="form-control p-sm-3"
+                  type="email"
+                  name="email"
+                  value=""
+                  placeholder="Имейл"
+                />
+              </div>
+              <div class="form-group">
+                <label class="control-label">Тема:</label>
+                <input
+                  class="form-control p-sm-3"
+                  type="text"
+                  name="subject"
+                  value=""
+                  placeholder="Тема"
+                />
+              </div>
+              <div class="form-group has-success">
+                <label for="message" class="control-label">Съобщение:</label>
+                <textarea
+                  id="msg"
+                  class="form-control p-sm-3"
+                  name="msg"
+                  rows="4"
+                  value=""
+                  placeholder="Напишете вашето съобщение"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button
+                  id="btn"
+                  class="btn bg-dark float-right py-2"
+                  type="submit"
+                >
+                  Изпрати
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </main>
+    </section> -->
 
+    <!-- Contact Social -->
     <div class="contact-background">
       <div class="overlay"></div>
-      <div id="contact" area-label="Contact information">
+      <div id="social-contact" area-label="Contact information">
         <div class="container">
           <div class="row">
             <!-- <div class="col"></div> -->
